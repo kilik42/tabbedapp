@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "27cdaa731c0aa08c0b1eac0323d5adf0"
+build_time: [1592344076, 188071000]
+inputs:
+  "/Users/marvinevins/Library/Autosave Information/TabbedApp/TabbedApp/ViewController.swift": [1592344069, 388505803]
+  "/Users/marvinevins/Library/Autosave Information/TabbedApp/TabbedApp/AppDelegate.swift": [1592344069, 372538375]
+  "/Users/marvinevins/Library/Autosave Information/TabbedApp/TabbedApp/SceneDelegate.swift": [1592344069, 386669965]

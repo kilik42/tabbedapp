@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>2F6D8986-EEBF-4D1A-81BF-79CD795CBC68</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2F6D8986-EEBF-4D1A-81BF-79CD795CBC68.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TabbedApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TabbedApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build TabbedApp</string>
+			<key>timeStartedRecording</key>
+			<real>614043943.22274494</real>
+			<key>timeStoppedRecording</key>
+			<real>614043946.58648503</real>
+			<key>title</key>
+			<string>Build TabbedApp</string>
+			<key>uniqueIdentifier</key>
+			<string>2F6D8986-EEBF-4D1A-81BF-79CD795CBC68</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NVH-Kg-dAH">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TabbedApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatarstate" translatesAutoresizingMaskIntoConstraints="NO" id="eQ4-xN-P6b">
+                                <rect key="frame" x="20" y="44" width="374" height="769"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="INW-hS-gn8">
+                                <rect key="frame" x="30" y="612" width="354" height="80"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="NEr-ei-37E"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="44"/>
+                                <state key="normal" title="Avatar">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="INW-hS-gn8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="1Qf-cP-NRo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="INW-hS-gn8" secondAttribute="bottom" constant="121" id="C1M-Mj-yhg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eQ4-xN-P6b" secondAttribute="trailing" constant="20" id="US3-80-oQ3"/>
+                            <constraint firstItem="eQ4-xN-P6b" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="UsW-p0-Hnr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="INW-hS-gn8" secondAttribute="trailing" constant="30" id="cVx-TU-uga"/>
+                            <constraint firstItem="eQ4-xN-P6b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="xId-yP-Xvl"/>
+                            <constraint firstItem="eQ4-xN-P6b" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="yN6-w2-MzE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="square.and.arrow.up" catalog="system" landscapeImage="fire" largeContentSizeImage="square.and.arrow.down.fill" id="KzB-BM-2TS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1132" y="67"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="tNB-sH-EdN">
+            <objects>
+                <viewController id="b87-c0-D1g" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6UI-ru-AOc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="roku" translatesAutoresizingMaskIntoConstraints="NO" id="kjE-SD-w0e">
+                                <rect key="frame" x="20" y="44" width="374" height="811"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="kjE-SD-w0e" firstAttribute="top" secondItem="Mx1-Vt-hpn" secondAttribute="top" id="8gY-P5-Ebr"/>
+                            <constraint firstItem="kjE-SD-w0e" firstAttribute="leading" secondItem="Mx1-Vt-hpn" secondAttribute="leading" constant="20" id="ZQ7-Wy-BBh"/>
+                            <constraint firstItem="Mx1-Vt-hpn" firstAttribute="trailing" secondItem="kjE-SD-w0e" secondAttribute="trailing" constant="20" id="cc0-o0-xuj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Mx1-Vt-hpn"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="square.and.arrow.down" catalog="system" id="sUi-1x-eEd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kcy-lc-LWV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1918.840579710145" y="-137.27678571428569"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="RVW-ay-8ul">
+            <objects>
+                <viewController id="9fM-t0-3d9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AQK-GJ-0kD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatarWallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="ck0-xj-TUB">
+                                <rect key="frame" x="20" y="44" width="374" height="769"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ck0-xj-TUB" firstAttribute="top" secondItem="8XI-6m-XC9" secondAttribute="top" id="Dsj-2i-6FP"/>
+                            <constraint firstItem="ck0-xj-TUB" firstAttribute="leading" secondItem="8XI-6m-XC9" secondAttribute="leading" constant="20" id="HLL-yz-tpG"/>
+                            <constraint firstItem="8XI-6m-XC9" firstAttribute="trailing" secondItem="ck0-xj-TUB" secondAttribute="trailing" constant="20" id="RVw-9G-Is7"/>
+                            <constraint firstItem="ck0-xj-TUB" firstAttribute="bottom" secondItem="8XI-6m-XC9" secondAttribute="bottom" id="dcH-Ya-xy5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8XI-6m-XC9"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="paperplane" catalog="system" id="KaL-Fv-fh6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gue-db-Gqb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1919" y="536"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="htP-jY-iJb">
+            <objects>
+                <viewController id="KpZ-Rq-Ejm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3l7-as-Kgd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="toph" translatesAutoresizingMaskIntoConstraints="NO" id="kft-WU-Pl1">
+                                <rect key="frame" x="20" y="44" width="374" height="769"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="kft-WU-Pl1" firstAttribute="leading" secondItem="6fB-hh-VyH" secondAttribute="leading" constant="20" id="LPN-gj-e3j"/>
+                            <constraint firstItem="6fB-hh-VyH" firstAttribute="trailing" secondItem="kft-WU-Pl1" secondAttribute="trailing" constant="20" id="Lkx-HT-TGy"/>
+                            <constraint firstItem="kft-WU-Pl1" firstAttribute="bottom" secondItem="6fB-hh-VyH" secondAttribute="bottom" id="MIe-Zw-yB6"/>
+                            <constraint firstItem="kft-WU-Pl1" firstAttribute="top" secondItem="6fB-hh-VyH" secondAttribute="top" id="OxT-3c-J5Y"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6fB-hh-VyH"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="pencil.and.outline" catalog="system" id="NEu-gy-J1s"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e9d-Yt-aWk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2677" y="82"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="3Cg-w5-HVp">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="NVH-Kg-dAH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5SG-Xh-KG4">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="2Ky-Tz-DaU"/>
+                        <segue destination="b87-c0-D1g" kind="relationship" relationship="viewControllers" id="7gg-rW-Vgc"/>
+                        <segue destination="9fM-t0-3d9" kind="relationship" relationship="viewControllers" id="2cO-gJ-t2i"/>
+                        <segue destination="KpZ-Rq-Ejm" kind="relationship" relationship="viewControllers" id="HZa-wH-f9G"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EaM-OX-Xja" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="66.964285714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="avatarWallpaper" width="525" height="933"/>
+        <image name="avatarstate" width="474" height="651"/>
+        <image name="fire" width="1200" height="1200"/>
+        <image name="paperplane" catalog="system" width="128" height="121"/>
+        <image name="pencil.and.outline" catalog="system" width="128" height="119"/>
+        <image name="roku" width="564" height="811"/>
+        <image name="square.and.arrow.down" catalog="system" width="121" height="128"/>
+        <image name="square.and.arrow.down.fill" catalog="system" width="121" height="128"/>
+        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
+        <image name="toph" width="200" height="324"/>
+    </resources>
+</document>
